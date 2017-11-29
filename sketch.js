@@ -1,8 +1,5 @@
-// red: #F24440
-// blue: #1785FB
-// green: #73C86B
+
 var myImage;
-var myImage2;
 var value = 0;
 var threshold = 1;
 var r;
@@ -11,7 +8,6 @@ var posY;
 function preload() {
   
   myImage= loadImage('assets/1.jpg');
-	myImage2= loadImage('assets/2.jpg');
 }
 function setup() {
 	createCanvas(windowWidth,windowHeight);
