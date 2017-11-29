@@ -54,6 +54,3 @@ function deviceShaken() {
 	
 }
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
